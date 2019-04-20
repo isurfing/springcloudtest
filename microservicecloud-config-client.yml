@@ -22,6 +22,7 @@ server:
   port: 8081
 # spring相关配置(应用名、数据源)  
 spring:
+   profiles: dev
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver             #org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -49,6 +50,7 @@ server:
   port: 8082
 # spring相关配置(应用名、数据源)  
 spring:
+   profiles: test
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver             #org.gjt.mm.mysql.Driver              # mysql驱动包
