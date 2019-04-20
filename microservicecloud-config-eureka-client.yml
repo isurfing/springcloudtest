@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: microservicecloud-config-eureka-client
   profiles:
     active:
     - dev

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservicecloud-dept
+    name: microservicecloud-config-client
   profiles:
     active:
     - dev
