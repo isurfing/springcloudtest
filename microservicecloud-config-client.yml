@@ -14,8 +14,8 @@ mybatis:
 info:
   app.name: lllccd-microservicecloud
   company.name: www.ccd.lll.com
-  build.artifactId: $project.artifactId$                    #从父工程pom文件中配置build相关的插件可以获取
-  build.version: $project.version$                          #从父工程pom文件中配置build相关的插件可以获取
+  build.artifactId: unknown                                 #从父工程pom文件中配置build相关的插件可以获取
+  build.version: unknown                                    #从父工程pom文件中配置build相关的插件可以获取
  
 ---
 server:
